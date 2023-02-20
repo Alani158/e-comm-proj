@@ -2,11 +2,7 @@ import img2 from "./images/cancel.jpg"
 
 
 const Sidebar = ({sidebar,openSidebar}) => {
-    if(sidebar){
-        console.log("hello")
-    }if(sidebar!=true){
-        console.log("no bitches")
-    }
+    
     return ( 
         <div className={sidebar?"trans ": "Open"}>
     
